@@ -1,0 +1,25 @@
+{
+
+	"manifest_version": 2,
+	"name": "Open in new tab",
+	"version": "1.1",
+	"author": "Gaute S. N.",
+
+	"description": "Opens all links specified by classname on a specified domain in a new tab.",
+
+	"icons": {
+		"48": "icons/newtab-48.png",
+		"96": "icons/newtab-96.png"
+	},
+	
+	"permissions": [
+		"activeTab"
+	],
+	
+	"browser_action": {
+		"default_icon": "icons/newtab-32.png",
+		"default_title": "Open in new tab",
+		"default_popup": "popup/newtab_main.html"
+	}
+
+}
