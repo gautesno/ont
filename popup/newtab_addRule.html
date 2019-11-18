@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="newtab_addRule.css">
+    </head>
+    
+    <body>
+        <div id="popup-content">
+            
+            <form> <!-- Form for inputting new rules for opening links in new tab -->
+                <input type="text" id="filterClass"> <!-- Classname for links to be opened in a new tab -->
+                <input type="url" id="filterDomain"> <!-- Domain to run the addon on -->
+                <input type="button" id="cancel"> <!-- Cancel the input and return to the main page. -->
+                <input type="submit"> <!-- Add the content to the ruleset -->
+            </form>
+            
+        </div> <!-- /#popup-content -->
+        
+        <div id="error-content" class="hidden">
+            <p>"Open in new tab" is unable to run on this page.</p>
+            <p>Please try a different page.</p>
+        </div> <!-- /#error-content -->
+        
+        <script src="newtab_addRule.js" defer></script>
+        
+    </body>
+</html>
