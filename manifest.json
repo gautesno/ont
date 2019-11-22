@@ -6,7 +6,7 @@
 	"author": "Gaute S. N.",
 
 	"description": "Opens all links specified by classname on a specified domain in a new tab.",
-
+    "homepage_url": "https://github.com/fenrrs/ont/tree/master",
 	"icons": {
 		"48": "icons/newtab-48.png",
 		"96": "icons/newtab-96.png"
