@@ -1,6 +1,4 @@
-
-console.log("Script loaded");
-
+ 
 (function () {
     /**
      * Check and set a global guard variable.
