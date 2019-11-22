@@ -1,6 +1,3 @@
-/* eslint-env browser, node, global */
-/* eslint no-console: "off" */
-
 /*
  * Listen for clicks on buttons, and send the appropriate message to the content
  * scripts in the page.
